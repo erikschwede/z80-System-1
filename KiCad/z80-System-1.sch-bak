@@ -104,10 +104,10 @@ $EndComp
 Text GLabel 2300 2000 2    50   Input ~ 0
 CLK
 $Comp
-L CPU:Z80CPU U2
+L CPU:Z80CPU U?
 U 1 1 601D54F5
 P 3350 2200
-F 0 "U2" H 3350 3881 50  0000 C CNN
+F 0 "U?" H 3350 3881 50  0000 C CNN
 F 1 "Z80CPU" H 3350 3790 50  0000 C CNN
 F 2 "" H 3350 2600 50  0001 C CNN
 F 3 "www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080" H 3350 2600 50  0001 C CNN
@@ -115,36 +115,14 @@ F 3 "www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080" H 3350 2600 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_UART:16550 U4
+L Interface_UART:16550 U?
 U 1 1 601D7ADE
 P 5150 2400
-F 0 "U4" H 5150 4281 50  0000 C CNN
+F 0 "U?" H 5150 4281 50  0000 C CNN
 F 1 "16550" H 5150 4190 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm" H 5150 2400 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/pc16550d.pdf" H 5150 2400 50  0001 C CNN
 	1    5150 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L z80_System_1:62256 U1
-U 1 1 601C079D
-P 3300 5200
-F 0 "U1" H 3300 6681 50  0000 C CNN
-F 1 "62256" H 3300 6590 50  0000 C CNN
-F 2 "" H 850 6300 50  0001 C CNN
-F 3 "" H 850 6300 50  0001 C CNN
-	1    3300 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L z80_System_1:AT28C64 U3
-U 1 1 601C1ED0
-P 4800 5450
-F 0 "U3" H 4800 6831 50  0000 C CNN
-F 1 "AT28C64" H 4800 6740 50  0000 C CNN
-F 2 "" H 4700 5450 50  0001 C CNN
-F 3 "" H 4700 5450 50  0001 C CNN
-	1    4800 5450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
