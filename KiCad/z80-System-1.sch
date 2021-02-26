@@ -745,9 +745,9 @@ NoConn ~ 8850 3850
 NoConn ~ 8850 3750
 NoConn ~ 8850 3650
 Text GLabel 8850 3250 2    50   Input ~ 0
-RX
+uartRX
 Text GLabel 8850 3350 2    50   Input ~ 0
-TX
+uartTX
 Text GLabel 8850 2150 2    50   Input ~ 0
 uartCTS
 Text GLabel 8850 2550 2    50   Input ~ 0
@@ -1188,10 +1188,6 @@ Wire Wire Line
 Connection ~ 10150 1150
 Wire Wire Line
 	10150 1150 10600 1150
-Wire Bus Line
-	6700 950  6700 2650
-Wire Bus Line
-	3850 950  3850 7050
 $Comp
 L 74xx:74LS04 U5
 U 7 1 6034580B
@@ -1258,4 +1254,8 @@ F 3 "" H 10500 6000 50  0001 C CNN
 	1    10500 6000
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	6700 950  6700 2650
+Wire Bus Line
+	3850 950  3850 7050
 $EndSCHEMATC
